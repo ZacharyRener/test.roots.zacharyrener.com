@@ -36,7 +36,9 @@
     "oscarotero/env": "^1.2.0",
     "roots/wordpress": "5.3.2",
     "roots/wp-config": "1.0.0",
-    "roots/wp-password-bcrypt": "1.0.0"
+    "roots/wp-password-bcrypt": "1.0.0",
+    "andrewexton373/wp-sync-db": "dev-master@dev",
+    "andrewexton373/wp-sync-db-media-files": "dev-master@dev"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.5.4",
