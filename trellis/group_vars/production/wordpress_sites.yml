@@ -7,7 +7,7 @@ wordpress_sites:
     site_hosts:
       - canonical: test.roots.zacharyrener.com
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
-    repo: git@github.com:example/test.roots.zacharyrener.com.git # replace with your Git repo URL
+    repo: git@github.com:zacharyrener/test.roots.zacharyrener.com.git # replace with your Git repo URL
     repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo
     branch: master
     multisite:
