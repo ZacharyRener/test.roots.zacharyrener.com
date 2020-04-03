@@ -1,0 +1,87 @@
+
+header {
+
+    position: absolute;
+    @include desktop {
+        padding-left: 50px;
+    }
+    @include tablet {
+        padding-left: 50px;
+    }
+    @include phone {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    padding-top: 25px;
+    z-index: 10;
+
+    overflow: hidden;
+
+    .container {
+
+        @include desktop {
+            display: flex;
+        }
+
+        @include tablet {
+            display: flex;
+        }
+
+        align-items: center;
+
+        .site-logo {
+            .site-excerpt {
+                font-size: 17px;
+                font-weight: 400;
+            }
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            @include desktop {
+                font-size: 45px;
+            }
+            @include tablet {
+                font-size: 45px;
+                line-height: 40px;
+                max-width:400px;
+            }
+            @include phone {
+                font-size: 38px;
+                line-height: 30px;
+                margin-bottom: 20px;
+            }
+            color: white;
+            text-transform: uppercase;
+        }
+    
+        .site-menu {
+    
+            @include desktop {
+                padding-left: 75px;
+                position: relative;
+                top: -10px;
+            }
+
+            @include tablet {
+                padding-left: 0;
+            }
+
+            @include phone {
+                
+            }
+    
+            a {
+                @extend .site-logo;
+                font-weight: 600;
+                font-size: 15px;    
+                margin-right: 50px;
+                @include tablet {
+                    line-height: 7px;
+                }
+            }
+
+        }
+    
+    }
+
+
+}
