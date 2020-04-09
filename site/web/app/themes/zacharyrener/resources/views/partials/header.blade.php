@@ -8,5 +8,10 @@
         <div class='site-menu'>
             <a href=''>All Projects</a><a href=''>GitHub</a>
         </div>
+
+    </div>
+    
+    <div class='cta'>
+        <a class='button' href=''>Contact Me</a>
     </div>
 </header>
