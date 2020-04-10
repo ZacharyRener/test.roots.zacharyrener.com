@@ -8,9 +8,10 @@
     <div class="carousel-item active">
       <section class='text-video-section'>
         <div class='blue-overlay'></div>
-        <video  loop="true" autoplay="autoplay" controls="controls" id="vid" muted>
+        <!-- <video  loop="true" autoplay="autoplay" controls="controls" id="vid" muted>
           <source src='/app/uploads/2020/04/SHR-Site-Take-Six.mp4' type="video/mp4">
-        </video>
+        </video> -->
+        <div class='carousel-image'></div>
         <div class='text-section'>
           <h2>SHR <br/>Consulting</h2>
           <p>WordPress Theme from scratch</p>

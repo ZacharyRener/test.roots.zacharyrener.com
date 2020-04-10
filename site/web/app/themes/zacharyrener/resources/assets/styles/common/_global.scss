@@ -1,3 +1,7 @@
+body {
+    height: 200vh;
+}
+
 
 header {
 
@@ -89,6 +93,20 @@ header {
     }
 
     .cta {
+        &.prepareToAnimate {
+            position: fixed;
+            align-items: flex-start;
+            top: -50px;
+        }
+        &.fixedPosition {
+            top: 73px;
+        }
+        &.prepareEnding {
+            position: fixed;
+            align-items:flex-start;
+            top: -50px;
+        }
+        transition: $transition-primary;
         display: flex;
         justify-content: flex-end;
         align-items: center;

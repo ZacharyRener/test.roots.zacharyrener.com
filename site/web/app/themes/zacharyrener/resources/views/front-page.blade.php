@@ -4,4 +4,6 @@
 
 @include('partials.project-carousel')
 
+@include('partials.home-about')
+
 @endsection
